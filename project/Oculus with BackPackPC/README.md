@@ -50,7 +50,7 @@
 ### 変更したC#のスクリプト
 	・ZEDManager.cs
 	・ZEDCameraEditor.cs
-これらはのスクリプトは[ここ](https://github.com/Tiefsea/Test_TF/tree/main/%E6%9C%80%E6%96%B0%E7%89%88/Oculus%20with%20BackPackPC/%E4%BF%AE%E6%AD%A3%E3%81%97%E3%81%9F%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88)に用意しています．  
+これらはのスクリプトは[ここ](https://github.com/atsushi-wada/fpp-recording/tree/master/project/Oculus%20with%20BackPackPC/%E5%A4%89%E6%9B%B4%E3%81%97%E3%81%9F%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88)に用意しています．  
 <br />
 
 
@@ -66,7 +66,7 @@
 	・GraphicalMessage.cs	： 棒グラフのラベルを表示するため（あとはリアルタイムでセンサデータを画面に数値として表示する際も使用）
 	・UnityRecorderController.cs： UnityRecorderという機能をUnity上で操作しなくてよくするためのスクリプト
 
-これらのスクリプトは[ここ](https://github.com/Tiefsea/Test_TF/tree/main/%E6%9C%80%E6%96%B0%E7%89%88/Oculus%20with%20BackPackPC/%E8%BF%BD%E5%8A%A0%E3%81%97%E3%81%9F%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88)に用意しています．
+これらのスクリプトは[ここ](https://github.com/atsushi-wada/fpp-recording/tree/master/project/Oculus%20with%20BackPackPC/%E8%BF%BD%E5%8A%A0%E3%81%97%E3%81%9F%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88)に用意しています．
 <br />
 
 ### オブジェクトに追加したスクリプト
