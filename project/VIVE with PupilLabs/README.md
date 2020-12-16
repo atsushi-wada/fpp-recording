@@ -67,7 +67,7 @@ VIVE Pro と ZEDmini と PupilLabsを使用．
 	・ZEDCameraEditor.cs
 	・TimeSync.cs
 	・RecordingController.cs
-これらはのスクリプトは[ここ]()に用意しています．  
+これらはのスクリプトは[ここ](https://github.com/atsushi-wada/fpp-recording/tree/master/project/VIVE%20with%20PupilLabs/%E5%A4%89%E6%9B%B4%E3%81%97%E3%81%9F%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88)に用意しています．  
 <br />
 
 
@@ -77,7 +77,7 @@ VIVE Pro と ZEDmini と PupilLabsを使用．
 	・RecordMessage.cs： 録画開始，録画停止，録画失敗を画面に表示するため
 	・UnityRecorderController.cs： UnityRecorderという機能をUnity上で操作しなくてよくするためのスクリプト
 
-これらのスクリプトは[ここ]()に用意しています．
+これらのスクリプトは[ここ](https://github.com/atsushi-wada/fpp-recording/tree/master/project/VIVE%20with%20PupilLabs/%E8%BF%BD%E5%8A%A0%E3%81%97%E3%81%9F%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88)に用意しています．
 <br />
 ### オブジェクトに追加したスクリプト
 ゲームオブジェクトを追加しただけでは何も動作しません．  
