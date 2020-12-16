@@ -29,7 +29,7 @@ VIVE Pro と ZEDmini と PupilLabsを使用．
 ### 必要な準備
 まずは環境構築から．  
 [こちら](https://github.com/atsushi-wada/fpp-recording/tree/master/example/1.environment)を参考に，パススルーできるところまで進めてください．  
-次に[こちら]()を参考にPupilLabsをUnity上で使えるようにしてください．  
+次に[こちら]()（後日作成予定）を参考にPupilLabsをUnity上で使えるようにしてください．  
 <br />
 <br />
 
