@@ -124,7 +124,7 @@ Inspectorで設定する前提で書いたスクリプトなどがあるとそ�
 		Start Point には オブジェクトの Start_AngV_○ を指定 
 		End Point   には オブジェクトの End_AngV_○ を指定 
 		Manager には オブジェクトの ZED_Rig_Stereo を指定 
-	・CSVOutputControllerのCSVOutputController
+	・UseControllerのUseController
 		Manager には オブジェクトの ZED_Rig_Stereo を指定 
 		Record Mesage には オブジェクトの RecordMessage を指定
 		Unityrecorder Controller には　オブジェクトの UnityRecorder を指定
