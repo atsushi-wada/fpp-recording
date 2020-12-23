@@ -155,10 +155,11 @@ Unityのメニューの「Edit」->「ProjectSetting」を押してウィンド�
 その中の「Player」->「XR Settings」を見る．<br>
 そこの「Virtual Reality Supported」の項目にチェックが入っているか確認．（チェックがないならチェックする）<br>
 OpenVRが入ってないとその項目が出ないです．<br>
-![ProjectSettingWindow](ProjectSettingWindow.PNG)
 （OpenVRはSteamVRのプラグインを入れるときに一緒に入っているはず．）<br>
 もしその項目がないならインストールが上手くいってないということなので，
 その場合はやり直してください．<br>
+![ProjectSettingWindow](ProjectSettingWindow.PNG)
+<br>
 <br>
 あとはベースステーションの電源を入れ，
 ZEDminiをPCに繋いで実行する（Unityの真ん中，うえの方にある再生ボタンを押す）ことでパススルーができます．<br>
