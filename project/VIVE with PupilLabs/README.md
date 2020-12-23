@@ -47,11 +47,12 @@ VIVE Pro と ZEDmini と PupilLabsを使用．<br>
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 <br>
 <br>
-### 追加したゲームオブジェクトとその追加方法 および 追加した目的   
-オブジェクトはヒエラルキー部分の右クリックで追加可能です．  
-またオブジェクトの親子関係は分かるように書いたつもりですが，  
-分かりにくかったら上で表示してる画像で確認してください．  
-
+### 追加したゲームオブジェクトとその追加方法 および 追加した目的
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
+オブジェクトはヒエラルキー部分の右クリックで追加可能です．<br>
+またオブジェクトの親子関係は分かるように書いたつもりですが，<br>
+分かりにくかったら上で表示してる画像で確認してください．<br>
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 	・ZED_Rig_StereoのCamera_eyesの下の 
 	    ・Camera_eyes下の  
       		・Left_eye下の  
@@ -63,27 +64,30 @@ VIVE Pro と ZEDmini と PupilLabsを使用．<br>
       		・RecordingController	：CreatEmptyで追加__PupilLabs側に録画の命令を送信するため	
 	・UseController		：CreatEmptyで追加__csvファイルへの出力に関するスクリプトを使うため  
 	・RecordMessage		：CreatEmptyで追加__録画の開始と停止、失敗を画面に表示するため  
-	・UnityRecorder		：CreatEmptyで追加__Unity上で表示される画面を録画するため  
-<br />
+	・UnityRecorder		：CreatEmptyで追加__Unity上で表示される画面を録画するため<br>
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 <br>
 <br>
 ### 変更したC#のスクリプト
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 	・ZEDManager.cs
 	・ZEDCameraEditor.cs
 	・TimeSync.cs
 	・RecordingController.cs
-これらはのスクリプトは[ここ](https://github.com/atsushi-wada/fpp-recording/tree/master/project/VIVE%20with%20PupilLabs/%E5%A4%89%E6%9B%B4%E3%81%97%E3%81%9F%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88)に用意しています．  
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
+これらはのスクリプトは[ここ](https://github.com/atsushi-wada/fpp-recording/tree/master/project/VIVE%20with%20PupilLabs/%E5%A4%89%E6%9B%B4%E3%81%97%E3%81%9F%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88)
+に用意しています．  
 <br />
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 <br>
 <br>
-### 追加したC#のスクリプト および 追加した目的  
+### 追加したC#のスクリプト および 追加した目的
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 	・Void_NotVisualizingLayer.cs：Planeを画面上に表示しないため
 	・UseController.cs： HMD付属のコントローラのボタンで録画開始と録画停止を行うため
 	・RecordMessage.cs： 録画開始，録画停止，録画失敗を画面に表示するため
 	・UnityRecorderController.cs： UnityRecorderという機能をUnity上で操作しなくてよくするためのスクリプト
-
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 これらのスクリプトは[ここ](https://github.com/atsushi-wada/fpp-recording/tree/master/project/VIVE%20with%20PupilLabs/%E8%BF%BD%E5%8A%A0%E3%81%97%E3%81%9F%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88)に用意しています．
 <br />
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
