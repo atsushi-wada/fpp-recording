@@ -145,36 +145,24 @@ Unityのメニューから
 ## ZEDminiの映像をVIVEにパススルーする方法
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 
-Unityの左側にある「Hierarchy」内の「MainCamera」を削除。
-
-次にUnityの下側に表示されているであろう「Project」の中の
-「Assets」->「ZED」->「Prefabs」
-を見て、その中の「ZED_Rig_Stereo」を「Hierarchy」にドラッグして追加する。
-
-「Hierarchy」内の「ZED Rig Stereo」を選択すると
-右側に「Inspector」が表示される。
-ここで「Add Component」->「Script」から「ZED Manager」を追加。
-
+Unityの左側にある「Hierarchy」内の「MainCamera」と「Directional Light」を削除。<br>
+<br>
+次にUnityの下側に表示されているであろう「Project」タブを見る．<br>
+その中の「Assets」->「ZED」->「Prefabs」を見て、その中の「ZED_Rig_Stereo」を「Hierarchy」にドラッグして追加．
+![ZED_Rig_Stereo_Use](ZED_Rig_Stereo_Use.PNG) <br>
 次に
-Unityのメニューの「Edit」->「ProjectSetting」を押して
-ウィンドウを出す。その中の「XR Settings」を見る。
-そこの「Virtual Reality Supported」の項目にチェック。
-OpenVRが入ってないとその項目が出なかったと記憶しています。
-（OpenVRはSteamVRのプラグインを入れるときに一緒に入っているはず。）
-
-
-
-
-あとはベースステーションの電源を入れて、
-ZEDminiをUSB-Type-Cのところに繋いで
-実行する（再生ボタンを押す）ことでパススルーはできる。
-
-そしてこの時、
-「ZED Manager」からInputを選べるので、
-SVOを選択し、パスを指定すると、VIVEでその動画が見れる。
-ただ、そのままではスクリーンが空間に単独で存在し、
-そこに顔を向けることになるので
-どこかで設定する必要がある。
+Unityのメニューの「Edit」->「ProjectSetting」を押してウィンドウを出す．<br>
+その中の「Player」->「XR Settings」を見る．<br>
+そこの「Virtual Reality Supported」の項目にチェックが入っているか確認．（チェックがないならチェックする）<br>
+OpenVRが入ってないとその項目が出ないです．<br>
+![ProjectSettingWindow](ProjectSettingWindow.PNG)
+（OpenVRはSteamVRのプラグインを入れるときに一緒に入っているはず．）<br>
+もしその項目がないならインストールが上手くいってないということなので，
+その場合はやり直してください．<br>
+<br>
+あとはベースステーションの電源を入れ，
+ZEDminiをPCに繋いで実行する（Unityの真ん中，うえの方にある再生ボタンを押す）ことでパススルーができます．<br>
+<br>
 
 
 
