@@ -24,25 +24,28 @@ VIVE Pro と ZEDmini と PupilLabsを使用．
 録画に失敗した場合はその旨を画面に表示  
 
 (必要があれば適宜追記)
-
-
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
+<br>
+<br>
 ### 必要な準備
 まずは環境構築から．  
 [こちら](https://github.com/atsushi-wada/fpp-recording/tree/master/example/1.environment)を参考に，パススルーできるところまで進めてください．  
-次に[こちら]()（後日作成予定）を参考にPupilLabsをUnity上で使えるようにしてください．  
-<br />
-<br />
-
+次に[こちら](https://github.com/atsushi-wada/fpp-recording/tree/master/example/2.PupilLabs）(作成中)を参考にPupilLabsをUnity上で使えるようにしてください．  
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
+<br>
+<br>
+<br>
  ## VIVE with PupilLabs のオブジェクト
-
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 まずゲームオブジェクトは何があるのかを紹介します．  
 以下の画像に載っている通りです．  
 
 ![オブジェクト](オブジェクト.PNG)  
-すべてが元から用意されたものではないので、  
-次にどれが追加したものかを載せておきます．
-<br />
-
+すべてが元から用意されたものではないので，  
+次にどれが追加したものかを載せておきます．<br />
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
+<br>
+<br>
 ### 追加したゲームオブジェクトとその追加方法 および 追加した目的   
 オブジェクトはヒエラルキー部分の右クリックで追加可能です．  
 またオブジェクトの親子関係は分かるように書いたつもりですが，  
@@ -61,7 +64,9 @@ VIVE Pro と ZEDmini と PupilLabsを使用．
 	・RecordMessage		：CreatEmptyで追加__録画の開始と停止、失敗を画面に表示するため  
 	・UnityRecorder		：CreatEmptyで追加__Unity上で表示される画面を録画するため  
 <br />
-
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
+<br>
+<br>
 ### 変更したC#のスクリプト
 	・ZEDManager.cs
 	・ZEDCameraEditor.cs
@@ -69,8 +74,9 @@ VIVE Pro と ZEDmini と PupilLabsを使用．
 	・RecordingController.cs
 これらはのスクリプトは[ここ](https://github.com/atsushi-wada/fpp-recording/tree/master/project/VIVE%20with%20PupilLabs/%E5%A4%89%E6%9B%B4%E3%81%97%E3%81%9F%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88)に用意しています．  
 <br />
-
-
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
+<br>
+<br>
 ### 追加したC#のスクリプト および 追加した目的  
 	・Void_NotVisualizingLayer.cs：Planeを画面上に表示しないため
 	・UseController.cs： HMD付属のコントローラのボタンで録画開始と録画停止を行うため
@@ -79,6 +85,9 @@ VIVE Pro と ZEDmini と PupilLabsを使用．
 
 これらのスクリプトは[ここ](https://github.com/atsushi-wada/fpp-recording/tree/master/project/VIVE%20with%20PupilLabs/%E8%BF%BD%E5%8A%A0%E3%81%97%E3%81%9F%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88)に用意しています．
 <br />
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
+<br>
+<br>
 ### オブジェクトに追加したスクリプト
 ゲームオブジェクトを追加しただけでは何も動作しません．  
 C#のスクリプトにて，させたい動作を書く必要があります．  
@@ -96,8 +105,9 @@ C#のスクリプトにて，させたい動作を書く必要があります．
 	・RecordMessage		：RecordMessage.csを追加
 	・RecordingController	：RecordingController.csを追加
 	・UnityRecorder		：UnityRecorderController.csを追加
-<br />
-
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
+<br>
+<br>
 ### Inspectorでの設定
 ゲームオブジェクトにスクリプトを追加するだけではうまく動作しないものもある．  
 Inspectorで設定する前提で書いたスクリプトなどがあるとそうなる．  
@@ -129,20 +139,14 @@ Inspectorで設定する前提で書いたスクリプトなどがあるとそ�
 		Text_object には オブジェクトの Text を指定
 		Manager には オブジェクトの ZED_Rig_Stereo を指定 
 
-
-<br />
-<br />
-
-
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
+<br>
+<br>
 ### ゲームオブジェクトの座標  
 検証後，追記
- 
- 
-<br />
-<br />
-
-
- 
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
+<br>
+<br>
  ### ProjectSettings
  Unity上で設定することとして書き忘れがあったため追記．<br />
  Edit->ProjectSettings から設定する必要のある項目を記載しておきます．<br />
@@ -150,11 +154,6 @@ Inspectorで設定する前提で書いたスクリプトなどがあるとそ�
 	- Fire3をRecordButttonにRenameし，PositiveButtonをjoystick button 9に設定<br />
  - Player -> Other Settings にて<br />
   	- ApiCompatibilityLevl を .Net 4.x に変更<br />
-
-  
- 
- 
- 
-<br />
-<br />
-<br />
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
+<br>
+<br>
