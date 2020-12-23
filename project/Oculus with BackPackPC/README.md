@@ -179,7 +179,9 @@ Acceleration_○.cs や AngularVelocity_○.cs のStart PointとEnd Pointの指�
 （座標はUnityのInspector上で表示されるものを書いています）
 <br />
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
+
 #### 画面に文字を表示するためのオブジェクト
+
 	・ZED_Rig_Stereo：(x,y,z)=(0,0,0)
 		・Camera_eyes：(x,y,z)=(0,0,0)
 			・Canvas：(x,y,z)=(0,0,2)
@@ -187,7 +189,9 @@ Acceleration_○.cs や AngularVelocity_○.cs のStart PointとEnd Pointの指�
 				・GraphicalInfo：(x,y,z)=(-665.9,-87,-0.24)
 <br />
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
+
 #### 棒グラフの始点終点を決めるオブジェクト
+
 	・LinePoints：(x,y,z)=(0,0,2)
 		・Set_LAcceleration_○：(x,y,z)=(0,0,0)
 			・Start_AC_X：(x,y,z)=(-1,0,0)
@@ -203,6 +207,7 @@ Acceleration_○.cs や AngularVelocity_○.cs のStart PointとEnd Pointの指�
 			・End_AngV_Y  ：(x,y,z)=(-0.9,-0.4,0)
 			・Start_AngV_Z：(x,y,z)=(-1,-0.5,0)
 			・End_AngV_Z  ：(x,y,z)=(-0.9,-0.5,0)
+<br />
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 棒グラフの始点終点に関しては，先述のように座標をスクリプト側から指定することもできます．<br>
 ただ，Unity上で動かしたほうが調整しやすかったので，<br>
