@@ -14,23 +14,24 @@
 <br />
 
 ## VIVE with PupilLabs について
-VIVE Pro と ZEDmini と PupilLabsを使用．  
+VIVE Pro と ZEDmini と PupilLabsを使用．<br>
 パススルーしながらPupilLabsを利用し，
-リアルタイムでどこに視点を置いているかを黄色の丸で表示するプロジェクト
-
+リアルタイムでどこに視点を置いているかを黄色の丸で表示するプロジェクト<br>
+<br>
 主な仕様は以下の通りです．
 - キーボードのCを押すことでキャリブレーション  
-- コントローラのボタンで録画開始と録画停止が可能（PupilCaptureも同期）  
-録画に失敗した場合はその旨を画面に表示  
+- コントローラのボタンで録画開始と録画停止が可能（PupilCaptureも同期）
+録画に失敗した場合はその旨を画面に表示<br>
 
-(必要があれば適宜追記)
+(必要があれば適宜追記)<br>
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 <br>
 <br>
 ### 必要な準備
 まずは環境構築から．  
 [こちら](https://github.com/atsushi-wada/fpp-recording/tree/master/example/1.environment)を参考に，パススルーできるところまで進めてください．  
-次に[こちら](https://github.com/atsushi-wada/fpp-recording/tree/master/example/2.PupilLabs）(作成中)を参考にPupilLabsをUnity上で使えるようにしてください．  
+次に[こちら](https://github.com/atsushi-wada/fpp-recording/tree/master/example/2.PupilLabs）
+(作成中)を参考にPupilLabsをUnity上で使えるようにしてください．  
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 <br>
 <br>
