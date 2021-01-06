@@ -40,10 +40,11 @@ Unityのメニューから<br>
 <br>
 ## PupilLabsを使うために
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
-Unity上でPupilLabsを使うために
+Unity上でPupilLabsを使うために<br>
 次にUnityの下側に表示されているであろう「Project」タブを見る．
-その中の「Assets」->「ZED」->「Prefabs」を見て、<br>
-その中の「ZED_Rig_Stereo」を「Hierarchy」にドラッグして追加．<br>
+その中の「Assets」->「Plugins」->「Pupil」->「Prefabs」を見て、<br>
+その中の「Gaze Tracker」を「Hierarchy」にドラッグして追加．<br>
+![PupilLabs_Use](PupilLabs_Use.PNG) <br>
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 <br>
 <br>
