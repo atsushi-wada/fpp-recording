@@ -15,8 +15,8 @@
 [こちら](https://github.com/pupil-labs/pupil/releases)
 から最新のものをダウンロードしてください．<br>
 その中に入ってるPupil CaptureをProject実行時に使います．<br>
-
-次にPupilLabsのUnityPackageをダウンロードします．
+<br>
+次にPupilLabsのUnityPackageをダウンロードします．<br>
 [こちら](https://github.com/pupil-labs/hmd-eyes/releases)
 からダウンロードしてください．<br>
 なお，私が現在利用しているのはHmd-Eyes.VR.v1.1です．<br>
