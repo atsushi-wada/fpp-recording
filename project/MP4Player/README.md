@@ -27,7 +27,9 @@ VRヘッドセット(VIVE or Oculus) を使用．<br>
 [こちら](https://github.com/atsushi-wada/fpp-recording/tree/master/example/1.environment)を参考に，SteamVRのPluginを導入まで進めてください．<br>
 
 次に録画したSVOファイルをMP4に変換する必要があります．<br>
-その際に，歪みの補正などが必要になるので，別途まとめます．(後日追加予定)<br>
+ソフトによってはSVOから直接MP4にしても映像が歪んでる場合があります．<br>
+それを補正したうえでMP4に変換する手順は[こちら](https://github.com/atsushi-wada/fpp-recording/tree/master/example/3.converter)に
+ざっくりですが，まとめています．<br>
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 <br>
 <br>
