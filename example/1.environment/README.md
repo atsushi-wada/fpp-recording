@@ -137,7 +137,7 @@ Unityのメニューから
 「Assets」->「Import package」->「Custom Package」
 とし、ダウンロードした「ZED_Unity_Plugin_v2.8.1.unitypackage」を選択．<br>
 ![PacageInstall](PacageInstall.PNG)<br>
-「Import Unity Package」というウィンドウが出るので、右下の「Import」を押す．<br>
+「Import Unity Package」というウィンドウが出るので、右下の「Import」を押します．<br>
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 <br>
 <br>
