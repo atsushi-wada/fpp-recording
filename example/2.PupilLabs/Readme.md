@@ -42,7 +42,8 @@ Unityのメニューから<br>
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 Unity上でPupilLabsを使うために
 次にUnityの下側に表示されているであろう「Project」タブを見る．
-その中の「Assets」->「ZED」->「Prefabs」を見て、その中の「ZED_Rig_Stereo」を「Hierarchy」にドラッグして追加．
+その中の「Assets」->「ZED」->「Prefabs」を見て、<br>
+その中の「ZED_Rig_Stereo」を「Hierarchy」にドラッグして追加．<br>
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 <br>
 <br>
