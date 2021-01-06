@@ -19,6 +19,8 @@ VIVE Pro と ZEDmini と PupilLabsを使用．<br>
 パススルーしながらPupilLabsを利用し，
 リアルタイムでどこに視点を置いているかを黄色の丸で表示するプロジェクト<br>
 <br>
+実行する際にはPupilCaptureを起動しておく必要があります．<br>
+<br>
 主な仕様は以下の通りです．<br>
 - キーボードのCを押すことでキャリブレーション  
 - コントローラのボタンで録画開始と録画停止が可能（PupilCaptureも同期）
@@ -167,8 +169,7 @@ Inspectorで設定する前提で書いたスクリプトなどがあるとそ�
  - Input にて
 	- Fire3をRecordButttonにRenameし，PositiveButtonをjoystick button 9に設定<br />
  - Player -> Other Settings にて<br />
-  	- ApiCompatibilityLevl を .Net 4.x に変更<br />
-<br>
+  	- ApiCompatibilityLevl を .Net 4.x に変更
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 <br>
 <br>
