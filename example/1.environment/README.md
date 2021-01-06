@@ -133,8 +133,8 @@ https://github.com/stereolabs/zed-unity/releases
 次にダウンロードしたプラグインをUnityにインストールします．<br>
 <br>
 ### UnityPackage(Plugin)のインストール
-Unityのメニューから
-「Assets」->「Import package」->「Custom Package」
+Unityのメニューから<br>
+「Assets」->「Import package」->「Custom Package」<br>
 とし、ダウンロードした「ZED_Unity_Plugin_v2.8.1.unitypackage」を選択．<br>
 ![PacageInstall](PacageInstall.PNG)<br>
 「Import Unity Package」というウィンドウが出るので、右下の「Import」を押します．<br>
