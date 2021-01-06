@@ -170,6 +170,7 @@ Inspectorで設定する前提で書いたスクリプトなどがあるとそ�
 	- Fire3をRecordButttonにRenameし，PositiveButtonをjoystick button 9に設定<br />
  - Player -> Other Settings にて<br />
   	- ApiCompatibilityLevl を .Net 4.x に変更<br />
+
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 <br>
 <br>
