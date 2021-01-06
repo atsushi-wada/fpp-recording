@@ -163,7 +163,7 @@ Inspectorで設定する前提で書いたスクリプトなどがあるとそ�
  ### ProjectSettings
  Unity上で設定することとして書き忘れがあったため追記．<br />
  Edit->ProjectSettings から設定する必要のある項目を記載しておきます．<br />
- - Input にて<br />　
+ - Input にて
 	- Fire3をRecordButttonにRenameし，PositiveButtonをjoystick button 9に設定<br />
  - Player -> Other Settings にて<br />
   	- ApiCompatibilityLevl を .Net 4.x に変更<br />
