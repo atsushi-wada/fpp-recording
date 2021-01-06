@@ -1,7 +1,7 @@
 # 目次
 - [ソフトウェアのダウンロード・インストール](#ソフトウェアのダウンロード・インストール)
 - [PupilLabsのUnityPackageを導入](#PupilLabsのUnityPackageを導入) 
-- [PupilLabsを使うためにPupilLabsを使うために)
+- [PupilLabsを使うために](#PupilLabsを使うために)
 <br />
 <br />
 <br />
