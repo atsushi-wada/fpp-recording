@@ -24,11 +24,11 @@ VRヘッドセット(VIVE or Oculus) を使用．<br>
 
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 まずはUnityの環境構築が必要です．<br>
-[こちら](https://github.com/atsushi-wada/fpp-recording/tree/master/example/1.environment)を参考に，SteamVRのPluginを導入まで進めてください．<br>
+[こちら](https://github.com/atsushi-wada/fpp-recording/tree/master/preparation/1.environment)を参考に，SteamVRのPluginを導入まで進めてください．<br>
 
 次に録画したSVOファイルをMP4に変換する必要があります．<br>
 ソフトによってはSVOから直接MP4にしても映像が歪んでる場合があります．<br>
-それを補正したうえでMP4に変換する手順は[こちら](https://github.com/atsushi-wada/fpp-recording/tree/master/example/3.converter)に
+それを補正したうえでMP4に変換する手順は[こちら](https://github.com/atsushi-wada/fpp-recording/tree/master/preparation/3.converter)に
 ざっくりですが，まとめています．<br>
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 <br>
