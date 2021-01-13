@@ -32,7 +32,7 @@ Oculus Rift S と ZEDmini を使用．<br>
 
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 環境構築が必要です．<br>
-[こちら](https://github.com/atsushi-wada/fpp-recording/tree/master/example/1.environment)を参考に，パススルーできるところまで進めてください．<br>
+[こちら](https://github.com/atsushi-wada/fpp-recording/tree/master/preparation/1.environment)を参考に，パススルーできるところまで進めてください．<br>
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 <br>
 <br>
