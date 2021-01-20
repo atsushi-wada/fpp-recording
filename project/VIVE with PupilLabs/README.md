@@ -158,9 +158,9 @@ Inspectorで設定する前提で書いたスクリプトなどがあるとそ�
  ### ProjectSettings
  ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
  Unity上で設定することとして書き忘れがあったため追記．<br />
- Edit->ProjectSettings から設定する必要のある項目を記載しておきます．<br />
+ Edit->ProjectSettings から設定する必要のある項目を記載しておきます．<br>
  - Input にて
-	- Fire3をRecordButttonにRenameし，PositiveButtonをjoystick button 9に設定<br />
+	- Fire3をRecordButttonにRenameし，PositiveButtonをjoystick button 9に設定<br>
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 <br>
 <br>
