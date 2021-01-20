@@ -108,7 +108,9 @@ NiCTのLANからだと上手くいかないこともあるため，気をつけ�
 そのあとに「SteamVR_Settings」というウィンドウも出るので、「Accept All」をクリックしてください．<br>
 <br>
 <br>
-もし，ダウンロードなどが上手くいかない場合は，[こちら]()にSteamVRのPacageを置いています．<br>
+もし，ダウンロードなどが上手くいかない場合は，
+
+SteamVRのPacageを置いています．<br>
 （ファイル名はsteamvr_2_3_2.unitypackage）<br>
 それを次節の[ZEDminiのPluginを導入](#ZEDminiのPluginを導入)
 [aaa](#UnityPackagePluginのインストール)
