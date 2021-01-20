@@ -4,7 +4,7 @@
 - [プロジェクトの作成](#プロジェクトの作成)
 - [SteamVRのPluginを導入](#SteamVRのPluginを導入)
 - [ZEDminiのPluginを導入](ZEDminiのPluginを導入)
-	- [UnityPackage(Plugin)のインストール](#UnityPackage"("Plugin")"のインストール)
+	- [UnityPackageのインストール](#UnityPackageのインストール)
 - [ZEDminiの映像をVIVEにパススルーする方法](#ZEDminiの映像をVIVEにパススルーする方法)
 <br />
 <br />
@@ -108,13 +108,14 @@ NiCTのLANからだと上手くいかないこともあるため，気をつけ�
 そのあとに「SteamVR_Settings」というウィンドウも出るので、「Accept All」をクリックしてください．<br>
 <br>
 <br>
-もし，ダウンロードなどが上手くいかない場合は，
-
-SteamVRのPacageを置いています．<br>
+ダウンロードなどが上手くいかない場合を考慮して
+ファイル共有をどうにかしたいと思います。<br>
+（GitHubには容量が大きくてアップロード出来なかったので）<br>
+<!-- 
 （ファイル名はsteamvr_2_3_2.unitypackage）<br>
-それを次節の[ZEDminiのPluginを導入](#ZEDminiのPluginを導入)
-[aaa](#UnityPackagePluginのインストール)
+それを次節の[UnityPackageのインストール](#UnityPackageのインストール)
 と同じようにImportしていただければ大丈夫です．<br>
+-->
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 <br>
 <br>
@@ -136,7 +137,7 @@ https://github.com/stereolabs/zed-unity/releases
 それ以外のバージョンを使う際はUnityのバージョンや仕様の変更などを確認したうえでご利用ください．<br>
 次にダウンロードしたプラグインをUnityにインストールします．<br>
 <br>
-### UnityPackage(Plugin)のインストール
+### UnityPackageのインストール
 Unityのメニューから<br>
 「Assets」->「Import package」->「Custom Package」<br>
 とし、ダウンロードした「ZED_Unity_Plugin_v2.8.1.unitypackage」を選択．<br>
