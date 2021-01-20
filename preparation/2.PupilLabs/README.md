@@ -1,10 +1,16 @@
 # 目次
 - [ソフトウェアのダウンロード・インストール](#ソフトウェアのダウンロード・インストール)
 - [PupilLabsのUnityPackageを導入](#PupilLabsのUnityPackageを導入) 
-- [PupilLabsを使うために](#PupilLabsを使うために)
+- [UnityでPupilLabsを使うために](#UnityでPupilLabsを使うために)
+	- [Inspectorでの設定](#Inspectorでの設定)
+	- [ProjectSettingでの設定](#ProjectSettingでの設定)
+- [PupilLabsの機能を上手く利用する](#PupilLabsの機能を上手く利用する)
 <br />
 <br />
 <br />
+## 前提として
+このページはZEDminiのパススルーが出来た後に見るものとして書いています．
+
 
 ## ソフトウェアのダウンロード・インストール
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
@@ -38,7 +44,7 @@ Unityのメニューから<br>
 <br>
 <br>
 <br>
-## PupilLabsを使うために
+## UnityでPupilLabsを使うために
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 Unity上でPupilLabsを使うために<br>
 次にUnityの下側に表示されているであろう「Project」タブを見る．<br>
@@ -50,7 +56,7 @@ Unity上でPupilLabsを使うために<br>
 これだけでは正常に動作しないためInspectorでの設定と<br>
 ProjectSettingを弄る必要があります．<br>
 
-## Inspectorでの設定
+### Inspectorでの設定
 Inspectorで必要な設定を以下にまとめます．
 ```
 ・ZED_Rig_Stereo下の
@@ -59,11 +65,12 @@ Inspectorで必要な設定を以下にまとめます．
 ・GazeTracker下の
 	・Connection：IPアドレスがローカル(127.0.0.1)で，PORT番号が50020になっていることを確認
 	・Eye Frame Visualizer：Camera as parent を Left_eye に設定
-  ・Gaze Visualizer：Gaze Origin を Left_eye に設定
-  ・Calibration Controller：Camera を Left_eye に設定
+	・Gaze Controllerの下の
+		・Gaze Visualizer：Gaze Origin を Camera_eyes に設定
+		・Calibration Controller：Camera を Left_eye に設定
 ```
 
-## ProjectSettingでの設定
+### ProjectSettingでの設定
  Unityのメニューの「Edit」->「ProjectSetting」を押して
  ProjectSettingのウインドウを出してください．<br>
  「Player」->「Other Settings」->「Configuration」<br>
@@ -71,6 +78,23 @@ Inspectorで必要な設定を以下にまとめます．
  デフォルトでは「.Net Standard 2.0」となっているので<br>
  これを「.Net 4.x」に変更してください．<br>
  ![Net](Net.PNG)
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
+<br>
+<br>
+<br>
+## PupilLabsの機能を上手く利用する
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
+前節までの準備を終えたら，あとは
+[ソフトウェアのダウンロード・インストール](#ソフトウェアのダウンロード・インストール)
+でダウンロードした中にあるPupil Capturを起動した後，<br>
+プロジェクトを実行する（Unityの真ん中，うえの方にある再生ボタンを押す）ことで
+PupilLabsが使えます．<br>
+<br>
+キーボードのCを押してCalibrationを行えば，<br>
+後はPupil Captur側のRを押すだけで視線のデータを保存できます．<br>
+<br>
+<br>
+追記予定<br>
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 <br>
 <br>
