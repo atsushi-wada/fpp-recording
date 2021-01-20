@@ -22,23 +22,23 @@
 <br />
 以下手順です．<br />
 <br />
-まずはSteamを下記のURLからインストール<br /> https://store.steampowered.com/?l=japanese<br />
-Steamを利用する際にはアカウントの作成を求められるので、適当なアカウントを作成．<br />
-Steamを起動出来たらVIVEをPCに接続．<br />
-VIVEが認識されたらSteamからSteamVRがダウンロード・起動が可能となります．<br />
-Stemaの右上にVRという文字が出ているはずなので，そこをクリック．<br />
+まずはSteamを下記のURLからインストールしてください．<br /> https://store.steampowered.com/?l=japanese<br />
+Steamを利用する際にはアカウントの作成を求められるので、適当なアカウントを作成してください．<br />
+Steamを起動出来たらVIVEをPCに接続し，<br />
+VIVE(or Oculus)が認識されたらSteamからSteamVRがダウンロード・起動が可能となります．<br />
+Stemaの右上にVRという文字が出ているはずなので，そこをクリックして画面の指示に従ってください．<br />
 <br>
-SteamVRが起動出来たらまずはベースステーションとコントローラが接続されるかを確認．<br>
+SteamVRが起動出来たらまずはベースステーションとコントローラが接続されるかを確認してください．<br>
 <br>
 コントローラはSteamVRのメニューから
-「デバイス」→「コントローラのペアリング」を行えば接続可能．<br>
-（適宜，フレームウェアのアップデートを求められることがあるので，その場合は有線でPCに繋いでアップデートを行ってください）<br>
+「デバイス」→「コントローラのペアリング」を行えば接続可能です．<br>
+（適宜，フレームウェアのアップデートを求められることがあるので，その場合はケーブルでPCに繋いでアップデートを行ってください）<br>
 <br>
 ベースステーションは電源を入れたら後ろにあるスイッチでチャンネルを<br>
 片方をb、もう片方をcに変更します．<br>
 <br>
 ベースステーションとコントローラが接続出来たら<br>
-SteamVRのメニューから「ルームセットアップを実行」を選択．<br>
+SteamVRのメニューから「ルームセットアップを実行」を選択し，<br>
 画面の指示に従い、セットアップを行ってください．<br>
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 <br>
@@ -150,20 +150,11 @@ Unityのメニューから<br>
 ## ZEDminiの映像をVIVEにパススルーする方法
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 
-Unityの左側にある「Hierarchy」内の「MainCamera」と「Directional Light」を削除。<br>
+Unityの左側にある「Hierarchy」内の「MainCamera」と「Directional Light」を削除します．<br>
 <br>
-次にUnityの下側に表示されているであろう「Project」タブを見る．<br>
-その中の「Assets」->「ZED」->「Prefabs」を見て、その中の「ZED_Rig_Stereo」を「Hierarchy」にドラッグして追加．
+次にUnityの下側に表示されているであろう「Project」タブを見て，<br>
+その中の「Assets」->「ZED」->「Prefabs」から「ZED_Rig_Stereo」を「Hierarchy」にドラッグして追加します．<br>
 ![ZED_Rig_Stereo_Use](ZED_Rig_Stereo_Use.PNG) <br>
-次に
-Unityのメニューの「Edit」->「ProjectSetting」を押してウィンドウを出す．<br>
-その中の「Player」->「XR Settings」を見る．<br>
-そこの「Virtual Reality Supported」の項目にチェックが入っているか確認．（チェックがないならチェックする）<br>
-OpenVRが入ってないとその項目が出ないです．<br>
-（OpenVRはSteamVRのプラグインを入れるときに一緒に入っているはず．）<br>
-もしその項目がないならインストールが上手くいってないということなので，
-その場合はやり直してください．<br>
-![ProjectSettingWindow](ProjectSettingWindow.PNG)
 <br>
 <br>
 あとはベースステーションの電源を入れ，
