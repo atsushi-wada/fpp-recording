@@ -68,8 +68,7 @@ VIVE Pro と ZEDmini と PupilLabsを使用．<br>
 	・Gaze Trackerの下の
       		・RecordingController	：CreatEmptyで追加__PupilLabs側に録画の命令を送信するため	
 	・UseController		：CreatEmptyで追加__csvファイルへの出力に関するスクリプトを使うため  
-	・RecordMessage		：CreatEmptyで追加__録画の開始と停止、失敗を画面に表示するため  
-	・UnityRecorder		：CreatEmptyで追加__Unity上で表示される画面を録画するため<br>
+	・RecordMessage		：CreatEmptyで追加__録画の開始と停止、失敗を画面に表示するため<br>
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 <br>
 <br>
@@ -92,7 +91,6 @@ VIVE Pro と ZEDmini と PupilLabsを使用．<br>
 	・Void_NotVisualizingLayer.cs：Planeを画面上に表示しないため
 	・UseController.cs： HMD付属のコントローラのボタンで録画開始と録画停止を行うため
 	・RecordMessage.cs： 録画開始，録画停止，録画失敗を画面に表示するため
-	・UnityRecorderController.cs： UnityRecorderという機能をUnity上で操作しなくてよくするためのスクリプト
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 これらのスクリプトは[ここ](https://github.com/atsushi-wada/fpp-recording/tree/master/project/VIVE%20with%20PupilLabs/%E8%BF%BD%E5%8A%A0%E3%81%97%E3%81%9F%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88)に用意しています．
 <br>
@@ -117,7 +115,6 @@ C#のスクリプトにて，させたい動作を書く必要があります．
 	・UseController		：UseController.csを追加
 	・RecordMessage		：RecordMessage.csを追加
 	・RecordingController	：RecordingController.csを追加
-	・UnityRecorder		：UnityRecorderController.csを追加
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 <br>
 <br>
@@ -142,7 +139,6 @@ Inspectorで設定する前提で書いたスクリプトなどがあるとそ�
 		Manager には オブジェクトの ZED_Rig_Stereo を指定 
 		Record Mesage には オブジェクトの RecordMessage を指定
 		Calibration には オブジェクトの Calibration Controller を指定
-		Unityrecorder Controller には　オブジェクトの UnityRecorder を指定
 	・RecordMessageのRecordMessage：
 		Text_object には オブジェクトの Text を指定
 		Manager には オブジェクトの ZED_Rig_Stereo を指定 
@@ -161,6 +157,7 @@ Inspectorで設定する前提で書いたスクリプトなどがあるとそ�
  Edit->ProjectSettings から設定する必要のある項目を記載しておきます．<br>
  - Input にて
 	- Fire3をRecordButttonにRenameし，PositiveButtonをjoystick button 9に設定<br>
+
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 <br>
 <br>
