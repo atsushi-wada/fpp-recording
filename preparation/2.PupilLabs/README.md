@@ -5,10 +5,11 @@
 	- [Inspectorでの設定](#Inspectorでの設定)
 	- [ProjectSettingでの設定](#ProjectSettingでの設定)
 - [PupilLabsの機能を上手く利用する](#PupilLabsの機能を上手く利用する)
-<br />
-<br />
-<br />
+<br>
+<br>
+<br>
 ## 前提として
+
 このページはZEDminiのパススルーが出来た後に見るものとして書いています．
 
 
