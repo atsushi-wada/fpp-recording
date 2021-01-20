@@ -44,7 +44,7 @@ Unity上でPupilLabsを使うために<br>
 次にUnityの下側に表示されているであろう「Project」タブを見る．<br>
 その中の「Assets」->「Plugins」->「Pupil」->「Prefabs」を見て、<br>
 その中の「Gaze Tracker」を「Hierarchy」にドラッグして追加．<br>
-![PupilLabs_Use](PupilLabs_Use.PNG) <br>
+![Gaze-Tracker](Gaze-Tracker.PNG) <br>
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 <br>
 <br>
