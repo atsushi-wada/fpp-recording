@@ -45,6 +45,31 @@ Unity上でPupilLabsを使うために<br>
 その中の「Assets」->「Plugins」->「Pupil」->「Prefabs」を見て、<br>
 その中の「Gaze Tracker」を「Hierarchy」にドラッグして追加．<br>
 ![Gaze-Tracker](Gaze-Tracker.PNG) <br>
+
+
+これだけでは正常に動作しないためInspectorでの設定と<br>
+ProjectSettingを弄る必要があります．<br>
+
+## Inspectorでの設定
+Inspectorで必要な設定を以下にまとめます．
+```
+・ZED_Rig_Stereo下の
+	・Camera_eyesの下の
+		・Left_eye：TagをMainCameraに設定
+・GazeTracker下の
+	・Connection：IPアドレスがローカル(127.0.0.1)で，PORT番号が50020になっていることを確認
+	・Eye Frame Visualizer：Camera as parent を Left_eye に設定
+  ・Gaze Visualizer：Gaze Origin を Left_eye に設定
+  ・Calibration Controller：Camera を Left_eye に設定
+```
+
+## ProjectSettingでの設定
+ Unityのメニューの「Edit」->「ProjectSetting」を押して
+ ProjectSettingのウインドウを出してください．<br>
+ 「Player」->「Other Settings」->「Configuration」<br>
+ といくと「ApiCompatibilityLevl」という項目があります．<br>
+ デフォルトでは「.Net Standard 2.0」となっているので<br>
+ これを「.Net 4.x」に変更してください．<br>
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 <br>
 <br>
