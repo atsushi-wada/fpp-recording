@@ -131,17 +131,10 @@ Inspectorで設定する前提で書いたスクリプトなどがあるとそ�
 
 	・ZED_Ri_Stereo下の
 		・Camera_eyesの下の
-			・Left_eye：TagをMainCameraに設定
+			・Left_eyeの下の
 				・Plane：Layerを適当なものを追加して設定(Void_NotVisualizingLayer.csで参照するために使用する．用意したスクリプトではNotVisualizingとして書いている)
-			・Right_eye：TagをMainCameraに設定
 	・GazeTracker下の
-		・Connection：IPアドレスがローカル(127.0.0.1)で，PORT番号が50020になっていることを確認
-		・Eye Frame Visualizer：Camera as parent を Left_eye に設定
 		・Time Sync：Tagを適当なtagを作成して設定（tagはZEDmanager.csから参照するのに使用する．用意したスクリプトではTsyncとしている）
-		・GazeControllerの下の
-			・CalibrationController：Camera を Left_eye に設定
-			・Gaze Visualizer：Gaze Origin を Camera_eyes に設定
-
 		・RecordingController：
 			Tagを適当なtagを作成して設定（tagはZEDmanager.csから参照するのに使用する．用意したスクリプトではsyncとしている）
 			Request Ctrl を Connection に設定
@@ -168,9 +161,6 @@ Inspectorで設定する前提で書いたスクリプトなどがあるとそ�
  Edit->ProjectSettings から設定する必要のある項目を記載しておきます．<br />
  - Input にて
 	- Fire3をRecordButttonにRenameし，PositiveButtonをjoystick button 9に設定<br />
- - Player -> Other Settings にて<br />
-  	- ApiCompatibilityLevl を .Net 4.x に変更<br />
-
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 <br>
 <br>
