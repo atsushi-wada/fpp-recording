@@ -4,7 +4,7 @@
 - [プロジェクトの作成](#プロジェクトの作成)
 - [SteamVRのPluginを導入](#SteamVRのPluginを導入)
 - [ZEDminiのPluginを導入](ZEDminiのPluginを導入)
-	- [UnityPackage(Plugin)のインストール](#UnityPackage(Plugin)のインストール)
+	- [UnityPackage(Plugin)のインストール](#UnityPackage"("Plugin")"のインストール)
 - [ZEDminiの映像をVIVEにパススルーする方法](#ZEDminiの映像をVIVEにパススルーする方法)
 <br />
 <br />
@@ -111,7 +111,7 @@ NiCTのLANからだと上手くいかないこともあるため，気をつけ�
 もし，ダウンロードなどが上手くいかない場合は，[こちら]()にSteamVRのPacageを置いています．<br>
 （ファイル名はsteamvr_2_3_2.unitypackage）<br>
 それを次節の[ZEDminiのPluginを導入](#ZEDminiのPluginを導入)
-[aaa](#UnityPackage(Plugin)のインストール)
+[aaa](#UnityPackagePluginのインストール)
 と同じようにImportしていただければ大丈夫です．<br>
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 <br>
