@@ -70,6 +70,7 @@ Inspectorで必要な設定を以下にまとめます．
  といくと「ApiCompatibilityLevl」という項目があります．<br>
  デフォルトでは「.Net Standard 2.0」となっているので<br>
  これを「.Net 4.x」に変更してください．<br>
+ ![Net](Net.PNG)
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 <br>
 <br>
