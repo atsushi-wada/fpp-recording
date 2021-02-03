@@ -140,6 +140,7 @@ Inspectorで設定する前提で書いたスクリプトなどがあるとそ�
 		でないとセンサデータが時間経過で正しくない動作をする．（誤差が補正されず，移動してないのにセンサの値がドリフトしていく．）
 		・Camera_eyes：TagをMainCameraに設定
 			・Left_eye：TagをMainCameraに設定
+			・Canvas  ：Canvas の RenderMode を WorldSpace に設定
 	・Line_Accelaration_○：Acceleration_○ （○にはX,Y,Zが入る）  
 		Start Point には オブジェクトの Start_AC_○ を指定  
 		End Point   には オブジェクトの End_AC_○ を指定 
