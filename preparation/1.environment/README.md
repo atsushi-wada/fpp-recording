@@ -130,15 +130,15 @@ https://www.stereolabs.com/developers/release/
 次に
 Unity用のZEDminiのプラグインを以下のURLからダウンロードします．<br>
 https://github.com/stereolabs/zed-unity/releases  
-なお，私が現在利用しているプラグインのバージョンは2.8.1です．<br>
-（ファイル名はZED_Unity_Plugin_v2.8.1.unitypackage）<br>
+なお，私が現在利用しているプラグインのバージョンは2.8.2です．<br>
+（ファイル名はZED_Unity_Plugin_v2.8.2.unitypackage）<br>
 それ以外のバージョンを使う際はUnityのバージョンや仕様の変更などを確認したうえでご利用ください．<br>
 次にダウンロードしたプラグインをUnityにインストールします．<br>
 <br>
 ### UnityPackageのインストール
 Unityのメニューから<br>
 「Assets」->「Import package」->「Custom Package」<br>
-とし、ダウンロードした「ZED_Unity_Plugin_v2.8.1.unitypackage」を選択．<br>
+とし、ダウンロードした「ZED_Unity_Plugin_v2.8.2.unitypackage」を選択．<br>
 ![PacageInstall](PacageInstall.PNG)<br>
 「Import Unity Package」というウィンドウが出るので、右下の「Import」を押します．<br>
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
