@@ -114,7 +114,6 @@ NiCTのLANからだと上手くいかないこともあるため，気をつけ�
 ファイル名は steamvr_2_3_2.unitypackage です．<br>
 それを次節の[UnityPackageのインストール](#UnityPackageのインストール)
 と同じようにImportしていただければ大丈夫です．<br>
--->
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 <br>
 <br>
