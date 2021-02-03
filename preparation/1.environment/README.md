@@ -134,6 +134,10 @@ https://github.com/stereolabs/zed-unity/releases
 （ファイル名はZED_Unity_Plugin_v2.8.2.unitypackage）<br>
 それ以外のバージョンを使う際はUnityのバージョンや仕様の変更などを確認したうえでご利用ください．<br>
 次にダウンロードしたプラグインをUnityにインストールします．<br>
+場合によっては以下の画像のようなウインドウが表示されることがあります．<br>
+その場合は「Save and generate」を押してウインドウを閉じれば大丈夫です．<br>
+![Input](Input.PNG) 
+<br>
 <br>
 ### UnityPackageのインストール
 Unityのメニューから<br>
