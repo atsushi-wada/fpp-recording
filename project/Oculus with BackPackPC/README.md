@@ -135,23 +135,26 @@ Inspectorで設定する前提で書いたスクリプトなどがあるとそ�
 （オブジェクトの指定などはドラッグ&ドロップするか，リストから指定する）<br>
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 
-	・ZEDManeger
-		AdvancedSettings の Set IMU Prior in AR は常にチェックをしておくこと．でないとセンサデータが時間経過で正しくない動作をする．（誤差が補正されず，移動してないのにセンサの値がドリフトしていく．）
-	・Line_Accelaration_○のAcceleration_○ （○にはX,Y,Zが入る）  
+	・ZED_Ri_Stereo：ZEDManeger
+		AdvancedSettings の Set IMU Prior in AR は常にチェックをしておくこと．
+		でないとセンサデータが時間経過で正しくない動作をする．（誤差が補正されず，移動してないのにセンサの値がドリフトしていく．）
+		・Camera_eyes：TagをMainCameraに設定
+			・Left_eye：TagをMainCameraに設定
+	・Line_Accelaration_○：Acceleration_○ （○にはX,Y,Zが入る）  
 		Start Point には オブジェクトの Start_AC_○ を指定  
 		End Point   には オブジェクトの End_AC_○ を指定 
 		Manager には オブジェクトの ZED_Rig_Stereo を指定 
-	・Line_AngularVelocity_○のAngularVelocity_○ （○にはX,Y,Zの対応したものが入る）  
+	・Line_AngularVelocity_○：AngularVelocity_○ （○にはX,Y,Zの対応したものが入る）  
 		Start Point には オブジェクトの Start_AngV_○ を指定 
 		End Point   には オブジェクトの End_AngV_○ を指定 
 		Manager には オブジェクトの ZED_Rig_Stereo を指定 
-	・UseControllerのUseController
+	・UseController：UseController
 		Manager には オブジェクトの ZED_Rig_Stereo を指定 
 		Record Mesage には オブジェクトの RecordMessage を指定
-	・RecordMessageのRecordMessage
+	・RecordMessage：RecordMessage
 		Text_object には オブジェクトの Text を指定
 		Manager には オブジェクトの ZED_Rig_Stereo を指定 
-	・GraphicalMessageのGraphicalMessage
+	・GraphicalMessage：GraphicalMessage
 		Text_object には オブジェクトの GraphicalInfo を指定
 		Manager には オブジェクトの ZED_Rig_Stereo を指定 	
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>		
@@ -169,8 +172,8 @@ Acceleration_○.cs や AngularVelocity_○.cs のStart PointとEnd Pointの指�
 本プロジェクトで座標を気にする必要があるのは，<br>
 画面に文字を表示するためのオブジェクトと
 棒グラフの始点終点を決めるオブジェクト．<br>
-また，画面に文字を表示するためのオブジェクトはスケールやテキストのフォント設定も気にする必要があります．<br>
-（テキストのフォント設定についてはスクリプトから設定することも可能です）<br>
+また，画面に文字を表示するためのオブジェクトはスケールも気にする必要があります．<br>
+（テキストのフォント設定についてはスクリプトから指定しているので省略します）<br>
 <br>
 位置調整やスケールの調整などは面倒だと思うので，参考程度に私が見やすいと思った座標を記載しています．<br>
 （座標はUnityのInspector上で表示されるものを書いています）
@@ -183,7 +186,6 @@ Acceleration_○.cs や AngularVelocity_○.cs のStart PointとEnd Pointの指�
 		・Camera_eyes：(x,y,z)=(0,0,0)
 			・Canvas：(x,y,z)=(0,0,2)，Width=600, Hight=200, Scale(x,y,z)=(0.0025, 0.0025, 1)
 				・Text：(x,y,z)=(0,2,-0.8)，Width=600, Hight=200
-						Paragraph の Alignment はどちらも中央
 				・GraphicalInfo：(x,y,z)=(-665.9,-87,-0.24)，Width=600, Hight=200
 <br />
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
