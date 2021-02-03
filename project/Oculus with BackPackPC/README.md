@@ -210,4 +210,18 @@ Acceleration_○.cs や AngularVelocity_○.cs のStart PointとEnd Pointの指�
 なお，スクリプ内で座標を指定する場合は絶対座標で書く必要があります．<br>
 <br />
 <br />
-<br />
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
+<br>
+<br>
+
+### ProjectSettings
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
+ Unity上で設定することとして書き忘れがあったため追記．<br />
+ Edit->ProjectSettings から設定する必要のある項目を記載しておきます．<br>
+ - Input にて
+	- Fire3をRecordButttonにRenameし，PositiveButtonをjoystick button 9に設定<br>
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
+<br>
+<br>
+
