@@ -148,7 +148,6 @@ Inspectorで設定する前提で書いたスクリプトなどがあるとそ�
 	・UseControllerのUseController
 		Manager には オブジェクトの ZED_Rig_Stereo を指定 
 		Record Mesage には オブジェクトの RecordMessage を指定
-		Unityrecorder Controller には　オブジェクトの UnityRecorder を指定
 	・RecordMessageのRecordMessage
 		Text_object には オブジェクトの Text を指定
 		Manager には オブジェクトの ZED_Rig_Stereo を指定 
