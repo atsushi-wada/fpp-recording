@@ -67,7 +67,6 @@ Oculus Rift S と ZEDmini を使用．<br>
 	・UseController		：CreatEmptyで追加__csvファイルへの出力に関するスクリプトを使うため  
 	・RecordMessage		：CreatEmptyで追加__録画の開始と停止、失敗を画面に表示するため  
 	・GraphicalMessage	：CreatEmptyで追加__棒グラフのラベルの表示のため   
-	・UnityRecorder		：CreatEmptyで追加__Unity上で表示される画面を録画するため  
 	・LinePoints		：CreatEmptyで追加__棒グラフの始点・終点を決定するため
 		・Set_○○	：CreatEmptyで追加__どれがどの棒グラフの始点・終点かを分かりやすくするため
 			・Start_○○	：CreatEmptyで追加__棒グラフの視点
@@ -98,7 +97,6 @@ Oculus Rift S と ZEDmini を使用．<br>
 	・UseController.cs	： HMD付属のコントローラのボタンで録画開始と録画停止を行うため
 	・RecordMessage.cs	： 録画開始，録画停止，録画失敗を画面に表示するため
 	・GraphicalMessage.cs	： 棒グラフのラベルを表示するため（あとはリアルタイムでセンサデータを画面に数値として表示する際も使用）
-	・UnityRecorderController.cs： UnityRecorderという機能をUnity上で操作しなくてよくするためのスクリプト
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 これらのスクリプトは[ここ](https://github.com/atsushi-wada/fpp-recording/tree/master/project/Oculus%20with%20BackPackPC/%E8%BF%BD%E5%8A%A0%E3%81%97%E3%81%9F%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88)に用意しています．
 <br />
@@ -126,7 +124,6 @@ C#のスクリプトにて，させたい動作を書く必要があります．
 	・UseController		：UseController.csを追加
 	・RecordMessage		：RecordMessage.csを追加
 	・GraphicalMessage	：GraphicalMessage.csを追加
-	・UnityRecorder		：UnityRecorderController.csを追加
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 <br>
 <br>
@@ -139,7 +136,6 @@ Inspectorで設定する前提で書いたスクリプトなどがあるとそ�
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 
 	・ZEDManeger
-		RecordingのGameViewRecordingはZEDminiの映像ではなく，Unity上で表示される画面を録画するための設定．デモ動画用に追加した機能のため，実験では使わない．  
 		AdvancedSettings の Set IMU Prior in AR は常にチェックをしておくこと．でないとセンサデータが時間経過で正しくない動作をする．（誤差が補正されず，移動してないのにセンサの値がドリフトしていく．）
 	・Line_Accelaration_○のAcceleration_○ （○にはX,Y,Zが入る）  
 		Start Point には オブジェクトの Start_AC_○ を指定  
