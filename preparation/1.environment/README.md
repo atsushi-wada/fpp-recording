@@ -111,8 +111,7 @@ NiCTのLANからだと上手くいかないこともあるため，気をつけ�
 ダウンロードなどが上手くいかない場合を考慮して
 [こちらのGoogleドライブ](https://drive.google.com/drive/folders/1-CP-sxtxwO25h-uTDJsU3yQnlZJRhddw?usp=sharing)に置いています．<br>
 （GitHubには容量が大きくてアップロード出来なかったので）<br>
-<!-- 
-（ファイル名はsteamvr_2_3_2.unitypackage）<br>
+ファイル名は steamvr_2_3_2.unitypackage です．<br>
 それを次節の[UnityPackageのインストール](#UnityPackageのインストール)
 と同じようにImportしていただければ大丈夫です．<br>
 -->
