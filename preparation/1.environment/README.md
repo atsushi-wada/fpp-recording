@@ -109,7 +109,7 @@ NiCTのLANからだと上手くいかないこともあるため，気をつけ�
 <br>
 <br>
 ダウンロードなどが上手くいかない場合を考慮して
-ファイル共有をどうにかしたいと思います。<br>
+[こちらのGoogleドライブ](https://drive.google.com/drive/folders/1-CP-sxtxwO25h-uTDJsU3yQnlZJRhddw?usp=sharing)に置いています．<br>
 （GitHubには容量が大きくてアップロード出来なかったので）<br>
 <!-- 
 （ファイル名はsteamvr_2_3_2.unitypackage）<br>
