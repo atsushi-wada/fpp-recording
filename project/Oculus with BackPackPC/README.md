@@ -80,8 +80,37 @@ Oculus Rift S と ZEDmini を使用．<br>
 	・ZEDManager.cs
 	・ZEDCameraEditor.cs
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
-これらはのスクリプトは[ここ](https://github.com/atsushi-wada/fpp-recording/tree/master/project/Oculus%20with%20BackPackPC/%E5%A4%89%E6%9B%B4%E3%81%97%E3%81%9F%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88)に用意しています．  
-<br />
+これらはのスクリプトは[ここ](https://github.com/atsushi-wada/fpp-recording/tree/master/project/Oculus%20with%20BackPackPC/%E5%A4%89%E6%9B%B4%E3%81%97%E3%81%9F%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88)に用意しています．<br>
+変更箇所も軽くまとめておきます。
+#### ZEDManager.cs<br>
+<details>
+<summary>変更箇所</summary>
+<pre>
+<code>
+389行目～408行目は宣言を追加したものです。
+        主にcsvに出力する時に使うものになります。
+private void AcquireImages() の中
+        1708行目～1718行目は追記したものです。
+        csvに書き出すデータをリストに追加する箇所です。
+void Update()　の中
+        1977行目～2043行目は全部追記したものです
+        追記した理由はセンサデータから回転前の座標などを算出するためです。
+        これをセンサデータを棒グラフとHMDの画面上に表示したり絶対座標を計算してcsvに出力するために使用しています。
+</code>
+</pre>
+</details>
+
+#### ZEDCameraEditor.cs<br>
+<details>
+<summary>変更箇所</summary>
+<pre>
+<code>
+606行目～651行目は録画開始と録画停止に関する箇所です。
+        録画開始時に日付の取得と出力先の設定を行います。
+        録画停止時にはリストをcsvに出力し、リストを初期化します。
+</code>
+</pre>
+</details>
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 <br>
 <br>
