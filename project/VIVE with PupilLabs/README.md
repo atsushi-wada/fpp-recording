@@ -77,11 +77,37 @@ VIVE Pro と ZEDmini と PupilLabsを使用．<br>
 
 	・ZEDManager.cs
 	・ZEDCameraEditor.cs
-	・TimeSync.cs
 	・RecordingController.cs
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 これらはのスクリプトは[ここ](https://github.com/atsushi-wada/fpp-recording/tree/master/project/VIVE%20with%20PupilLabs/%E5%A4%89%E6%9B%B4%E3%81%97%E3%81%9F%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88)に用意しています．
-<br>
+
+変更箇所も軽くまとめておきます．<br>
+#### ZEDManager.cs<br>
+<details>
+<summary>変更箇所</summary>
+<pre>
+<code>
+389行目～410行目で各種追記．
+        csvに出力する時に使うものや，他のスクリプトを使うためのものです．
+private void AcquireImages() の中
+        1712行目～1721行目に追記．
+        csvに書き出すデータをリストに追加する箇所です．
+</code>
+</pre>
+</details>
+
+#### ZEDCameraEditor.cs<br>
+<details>
+<summary>変更箇所</summary>
+<pre>
+<code>
+600行目～648行目は録画開始と録画停止に関する箇所です。
+        録画開始時に日付の取得と出力先の設定を行います。
+        録画停止時にはリストをcsvに出力し、リストを初期化します。
+</code>
+</pre>
+</details>
+
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 <br>
 <br>
