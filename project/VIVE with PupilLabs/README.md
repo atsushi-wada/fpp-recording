@@ -87,7 +87,7 @@ VIVE Pro と ZEDmini と PupilLabsを使用．<br>
 <summary>変更箇所</summary>
 <pre>
 <code>
-389行目～410行目で各種追記．
+389行目～410行目に追記．
         csvに出力する時に使うものや，他のスクリプトを使うためのものです．
 private void AcquireImages() の中
         1712行目～1721行目に追記．
@@ -101,7 +101,7 @@ private void AcquireImages() の中
 <summary>変更箇所</summary>
 <pre>
 <code>
-600行目～648行目は録画開始と録画停止に関する箇所です。
+600行目～648行目に追記。
         録画開始時に日付の取得と出力先の設定を行います。
         録画停止時にはリストをcsvに出力し、リストを初期化します。
 </code>
