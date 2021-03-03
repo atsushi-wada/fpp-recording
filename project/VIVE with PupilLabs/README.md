@@ -108,6 +108,17 @@ private void AcquireImages() の中
 </pre>
 </details>
 
+#### RecordingController.cs<br>
+<details>
+<summary>変更箇所</summary>
+<pre>
+<code>
+void Update()の削除
+	ZEDmManager.cs側で録画開始の処理を追加したため、削除しました。 
+</code>
+</pre>
+</details>
+
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 <br>
 <br>
