@@ -12,7 +12,6 @@ Unity上でHMDとZEDminiを用いて録画した動画ファイルはSVO形式�
 録画した動画を[こちらのプロジェクト](https://github.com/atsushi-wada/fpp-recording/tree/master/project/MP4Player)
 で再生できるようにMP4に変換する手順についてまとめます．<br>
 <br>
-(必要があれば適宜追記)<br>
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 <br>
 
