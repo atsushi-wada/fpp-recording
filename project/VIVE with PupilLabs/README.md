@@ -212,8 +212,9 @@ Inspectorで設定する前提で書いたスクリプトなどがあるとそ�
 
 ### ProjectSettings
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
- Unity上で設定することとして書き忘れがあったため追記．<br />
- Edit->ProjectSettings から設定する必要のある項目を記載しておきます．<br>
+HMDに対応しているコントローラのボタンで録画の開始・停止を
+実行するために必要な設定です．<br>
+ Edit->ProjectSettings から設定します．<br>
  - Input にて
 	- Fire3をRecordButttonにRenameし，PositiveButtonをjoystick button 9に設定<br>
 
