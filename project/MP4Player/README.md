@@ -13,10 +13,9 @@
 
 ## MP4Playerについて
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
-VRヘッドセット(VIVE or Oculus) を使用．<br>
-録画した動画をMP4に変換後，HMDで見るためのプロジェクト．<br>
+VRヘッドセット(VIVE or Oculus) を使用<br>
+録画した動画をMP4に変換後，HMDで見るためのプロジェクトです．<br>
 <br>
-(必要があれば適宜追記)<br>
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 <br>
 
@@ -24,7 +23,8 @@ VRヘッドセット(VIVE or Oculus) を使用．<br>
 
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 まずはUnityの環境構築が必要です．<br>
-[こちら](https://github.com/atsushi-wada/fpp-recording/tree/master/preparation/1.environment)を参考に，SteamVRのPluginを導入まで進めてください．<br>
+[こちら](https://github.com/atsushi-wada/fpp-recording/tree/master/preparation/1.environment)を参考に，
+”SteamVRのPluginを導入"まで進めてください．<br>
 
 次に録画したSVOファイルをMP4に変換する必要があります．<br>
 ソフトによってはSVOから直接MP4にしても映像が歪んでる場合があります．<br>
