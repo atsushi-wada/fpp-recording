@@ -192,9 +192,9 @@ Inspectorで設定する前提で書いたスクリプトなどがあるとそ�
 		Text_object には オブジェクトの GraphicalInfo を指定
 		Manager には オブジェクトの ZED_Rig_Stereo を指定 	
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>		
-Acceleration_○.cs や AngularVelocity_○.cs のStart PointとEnd Pointの指定は，  
-棒グラフの始点終点を決めるためだけのものなので，座標をスクリプト内で指定するなら不要．  
-（その場合はスクリプト内のStartPointとEndPointも不要）
+Acceleration_○.cs や AngularVelocity_○.cs のStart PointとEnd Pointの指定は，<br>
+棒グラフの始点終点を決めるためだけのものなので，座標をスクリプト内で指定するなら不要．<br>
+（その場合はスクリプト内のStartPointとEndPointも不要）<br>
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
 <br>
 <br>
